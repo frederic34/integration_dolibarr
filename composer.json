@@ -1,0 +1,15 @@
+{
+    "name": "Dolibarr",
+    "description": "Integration of Dolibarr Customer Relationship Management Application",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Frédéric FRANCE"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

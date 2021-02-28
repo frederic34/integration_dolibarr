@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>dolibarr</id>
+    <name>Dolibarr</name>
+    <summary>Integration of Dolibarr Customer Relationship Management Application</summary>
+    <description><![CDATA[Dolibarr integration provides a dashboard widget displaying your important notifications, a search provider for content and notifications for activity in Dolibarr.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="frederic.france@free.fr" homepage="https://github.com/frederic34">Frédéric FRANCE</author>
+    <namespace>Dolibarr</namespace>
+    <category>dashboard</category>
+    <category>integration</category>
+    <bugs>https://github.com/frederic34/integration_dolibarr/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Dolibarr</name>
+            <route>dolibarr.page.index</route>
+        </navigation>
+    </navigations>
+</info>
